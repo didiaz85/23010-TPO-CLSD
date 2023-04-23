@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: Open Sans,Arial,sans-serif;src: url(font/DancingScript-VariableFont_wght.ttf);
+}
+
+
+/* menu*/
+
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 20px 0;
+    }
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+    .headerPrincipal-nav{
+        display: flex;
+    }
+ 
+    .headerPrincipal-logo{
+        margin-left: 30px;
+    }    
+
+.headerPrincipal-nav-link{
+    padding: 15px;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+.headerPrincipal .btn button{
+    font-weight: 700px;
+    color: black;
+    padding: 2px 25px;
+    background: #f7797d;
+    border: none;
+    border-radius: 50px;
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 45px;
+    cursor: pointer;
+}
+ 
+
+body, html{
+    font-family: Open Sans,Arial,sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+/* hero image */
+.hero-image {
+    
+    height: 50%;
+    width: 100%;
+  
+    /* Position  imagen  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0%;
+    align-items:center;
+  }
+  
+
+  /* texto en el centro  de la imagen */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 6px;
+    font-size: 40px;
+  }
+
+  .hero-text button{
+    padding: 20px 50px;
+    background: #f7797d;
+    border: none;
+    border-radius: 50px;
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  /* Nuetra historia*/
+
+.seccion{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    width: auto;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 5px 2px 5px rgba(0, 0, 0, 0.096);
+
+}
+
+.titulo-1 h1{ 
+    margin: 0;
+    padding: auto;
+    color:black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.seccion img{
+    padding: 50px;
+    width: 350px;
+    border-radius: 25px;
+}
+
+.seccion h2{
+    margin: 0;
+    padding: 5px;
+    color: #000000;
+    font-size: 55px;
+}
+
+.seccion p{
+    color: black;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+/*NUESTROS SERVICIO */
+
+
+.seccion{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    width: auto;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 5px 2px 5px rgba(0, 0, 0, 0.096);
+
+}
+
+.titulo-1 h2{ 
+    margin: 0;
+    padding: auto;
+    color:black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.seccion img{
+    padding: 40px;
+    width: 350px;
+    border-radius: 50px;
+}
+
+.seccion h3{
+    margin: 0;
+    padding: 5px;
+    color: #000000;
+    font-size: 40px;
+}
+
+.seccion p{
+    color: black;
+    margin-right: 15px;
+    font-size: 50px;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* CELEBRACIONES*/
+.seccion img{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    width: auto;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 5px 2px 5px rgba(0, 0, 0, 0.096);
+}
+
+.seccion h3 {
+    margin: 0;
+    padding: 5px;
+    color: #000000;
+    font-size: 60px;
+}
+
+.seccion p{
+    color: black;
+    margin-left: 15px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+    margin:  auto;
+}
+
+.logos-redes{
+
+   
+    margin-right: 30px;
+
+}
+h4{
+    color: #ffffff;
+ }
+
